@@ -12,27 +12,26 @@ body {
 
 .header {
   margin: 100px auto;
-  width: 900px;
-  height: fit-content;
+  width: 300px;
+  height: 400px;
   background: #fff2f2;
   border-style: solid;
   border-color: #526bd0;
   border-width: 3px;
-  border-radius: 5px;
-  box-shadow: 12px 12px 1px #526bd0;
+  border-radius: 3px;
+  box-shadow: 5px 7px 1px #526bd0;
 }
 
 #animation {
-  width: 800px;
-  /*padding: 20px;*/
+  width: 250px;
   height: auto;
   font-family: "VT323", monospace;
   font-size: 40px;
-  margin: 80px auto;
+  margin: 20px auto;
   color: #526bd0;
 }
 
-.buttons {
+/*.buttons {
   display: flex;
   margin: auto;
 }
@@ -51,4 +50,59 @@ button {
   color: #526bd0;
   font-family: "VT323", monospace;
   font-size: 30px;
+}*/
+
+/* TABLET */
+
+@media (min-width: 666px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+  }
+
+  .header {
+    margin: 150px auto;
+    width: 500px;
+    height: fit-content;
+    background: #fff2f2;
+    border-style: solid;
+    border-color: #526bd0;
+    border-width: 3px;
+    border-radius: 5px;
+    box-shadow: 12px 12px 1px #526bd0;
+  }
+
+  #animation {
+    width: 400px;
+    font-size: 30px;
+    margin: 30px auto;
+  }
+}
+
+/* DESKTOP */
+
+@media (min-width: 1024px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    margin: 100px auto;
+    width: 900px;
+    height: fit-content;
+    background: #fff2f2;
+    border-style: solid;
+    border-color: #526bd0;
+    border-width: 3px;
+    border-radius: 5px;
+    box-shadow: 12px 12px 1px #526bd0;
+  }
+
+  #animation {
+    width: 800px;
+    font-size: 40px;
+    margin: 80px auto;
+  }
 }

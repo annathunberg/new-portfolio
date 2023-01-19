@@ -1,6 +1,3 @@
-// alert that says hi!
-// alert("hi!");
-
 let string =
   "Hi, I'm Anna! I'm a frontend developer with design skills. I love making products that are fun and user friendly.";
 var str = string.split("");
